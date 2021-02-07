@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                tv1_ID.setText(tv1_ID.getText() + "1");
+                tv1_ID.setText(tv1_ID.getText() + "2");
             }
         });
 
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                tv1_ID.setText(tv1_ID.getText() + "1");
+                tv1_ID.setText(tv1_ID.getText() + "3");
             }
         });
 
@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                tv1_ID.setText(tv1_ID.getText() + "1");
+                tv1_ID.setText(tv1_ID.getText() + "4");
             }
         });
 
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                tv1_ID.setText(tv1_ID.getText() + "1");
+                tv1_ID.setText(tv1_ID.getText() + "5");
             }
         });
 
@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                tv1_ID.setText(tv1_ID.getText() + "1");
+                tv1_ID.setText(tv1_ID.getText() + "6");
             }
         });
 
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                tv1_ID.setText(tv1_ID.getText() + "1");
+                tv1_ID.setText(tv1_ID.getText() + "7");
             }
         });
 
@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                tv1_ID.setText(tv1_ID.getText() + "1");
+                tv1_ID.setText(tv1_ID.getText() + "8");
             }
         });
 
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                tv1_ID.setText(tv1_ID.getText() + "1");
+                tv1_ID.setText(tv1_ID.getText() + "9");
             }
         });
     }
