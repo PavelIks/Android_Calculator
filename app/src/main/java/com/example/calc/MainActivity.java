@@ -1,29 +1,27 @@
 package com.example.calc;
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity
 {
-    EditText textview1;
+    EditText Edittext1_ID;
     Button btn5_ID, btn6_ID, btn7_ID, btn9_ID, btn10_ID, btn11_ID, btn13_ID, btn14_ID, btn15_ID;
     Button btn16_ID; // ...
+    float mValueOne, mValueTwo;
+    boolean crunchifyAddition, mSubtract, crunchifyMultiplication, crunchifyDivision;
 
+    @SuppressLint("WrongViewCast")
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        float mValueOne, mValueTwo;
-
-        boolean crunchifyAddition, mSubtract, crunchifyMultiplication, crunchifyDivision;
-
-        textview1 = (EditText) findViewById(R.id.tv1);
+        Edittext1_ID = (EditText) findViewById(R.id.edittext1);
 
         btn5_ID = (Button) findViewById(R.id.btn5);
         btn6_ID = (Button) findViewById(R.id.btn6);
@@ -42,15 +40,15 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                if (textview1 == null)
+                if (Edittext1_ID == null)
                 {
-                    textview1.setText("");
+                    Edittext1_ID.setText("");
                 }
                 else
                     {
-                        mValueOne = Float.parseFloat(textview1.getText() + "");
+                        mValueOne = Float.parseFloat(Edittext1_ID.getText() + "");
                         crunchifyAddition = true;
-                        textview1.setText(null);
+                        Edittext1_ID.setText(null);
                     }
             }
         });
@@ -60,7 +58,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                textview1.setText(textview1.getText() + "7");
+                Edittext1_ID.setText(Edittext1_ID.getText() + "7");
             }
         });
 
@@ -69,7 +67,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                textview1.setText(textview1.getText() + "8");
+                Edittext1_ID.setText(Edittext1_ID.getText() + "8");
             }
         });
 
@@ -78,7 +76,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                textview1.setText(textview1.getText() + "9");
+                Edittext1_ID.setText(Edittext1_ID.getText() + "9");
             }
         });
 
@@ -87,7 +85,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                textview1.setText(textview1.getText() + "4");
+                Edittext1_ID.setText(Edittext1_ID.getText() + "4");
             }
         });
 
@@ -96,7 +94,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                textview1.setText(textview1.getText() + "5");
+                Edittext1_ID.setText(Edittext1_ID.getText() + "5");
             }
         });
 
@@ -105,7 +103,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                textview1.setText(textview1.getText() + "6");
+                Edittext1_ID.setText(Edittext1_ID.getText() + "6");
             }
         });
 
@@ -114,7 +112,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                textview1.setText(textview1.getText() + "1");
+                Edittext1_ID.setText(Edittext1_ID.getText() + "1");
             }
         });
 
@@ -123,7 +121,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                textview1.setText(textview1.getText() + "2");
+                Edittext1_ID.setText(Edittext1_ID.getText() + "2");
             }
         });
 
@@ -132,7 +130,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                textview1.setText(textview1.getText() + "3");
+                Edittext1_ID.setText(Edittext1_ID.getText() + "3");
             }
         });
 
