@@ -29,9 +29,62 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/btn1"
-                android:layout_width="40dp"
+                android:id="@+id/button4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="C"
+                app:backgroundTint="@color/cardview_dark_background" />
+
+            <Space
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="MC"
+                app:backgroundTint="@color/cardview_dark_background" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="MR"
+                app:backgroundTint="@color/cardview_dark_background" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:text="M+"
+                app:backgroundTint="@color/cardview_dark_background" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="X"
                 app:backgroundTint="@color/cardview_dark_background" />
 
@@ -42,8 +95,8 @@
 
             <Button
                 android:id="@+id/btn2"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="±"
                 app:backgroundTint="@color/cardview_dark_background" />
 
@@ -54,8 +107,8 @@
 
             <Button
                 android:id="@+id/btn3"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="%"
                 app:backgroundTint="@color/cardview_dark_background" />
 
@@ -66,8 +119,8 @@
 
             <Button
                 android:id="@+id/btn4"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="/"
                 app:backgroundTint="@color/cardview_dark_background" />
         </LinearLayout>
@@ -79,8 +132,8 @@
 
             <Button
                 android:id="@+id/btn5"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="7"
                 app:backgroundTint="@color/black" />
 
@@ -91,8 +144,8 @@
 
             <Button
                 android:id="@+id/btn6"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="8"
                 app:backgroundTint="@color/black" />
 
@@ -103,8 +156,8 @@
 
             <Button
                 android:id="@+id/btn7"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="9"
                 app:backgroundTint="@color/black" />
 
@@ -115,8 +168,8 @@
 
             <Button
                 android:id="@+id/btn8"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="*"
                 app:backgroundTint="@color/cardview_dark_background" />
         </LinearLayout>
@@ -128,8 +181,8 @@
 
             <Button
                 android:id="@+id/btn9"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="4"
                 app:backgroundTint="@color/black" />
 
@@ -140,8 +193,8 @@
 
             <Button
                 android:id="@+id/btn10"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="5"
                 app:backgroundTint="@color/black" />
 
@@ -152,8 +205,8 @@
 
             <Button
                 android:id="@+id/btn11"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="6"
                 app:backgroundTint="@color/black" />
 
@@ -164,8 +217,8 @@
 
             <Button
                 android:id="@+id/btn12"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="-"
                 app:backgroundTint="@color/cardview_dark_background" />
         </LinearLayout>
@@ -177,8 +230,8 @@
 
             <Button
                 android:id="@+id/btn13"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="1"
                 app:backgroundTint="@color/black" />
 
@@ -189,8 +242,8 @@
 
             <Button
                 android:id="@+id/btn14"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="2"
                 app:backgroundTint="@color/black" />
 
@@ -201,8 +254,8 @@
 
             <Button
                 android:id="@+id/btn15"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="3"
                 app:backgroundTint="@color/black" />
 
@@ -213,8 +266,8 @@
 
             <Button
                 android:id="@+id/btn16"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="+"
                 app:backgroundTint="@color/cardview_dark_background" />
 
@@ -227,8 +280,8 @@
 
             <Button
                 android:id="@+id/btn17"
-                android:layout_width="80dp"
-                android:layout_height="wrap_content"
+                android:layout_width="122dp"
+                android:layout_height="60dp"
                 android:text="0"
                 app:backgroundTint="@color/black" />
 
@@ -239,8 +292,8 @@
 
             <Button
                 android:id="@+id/btn18"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="."
                 app:backgroundTint="@color/black" />
 
@@ -251,8 +304,8 @@
 
             <Button
                 android:id="@+id/btn19"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
                 android:text="="
                 app:backgroundTint="@android:color/holo_green_dark" />
         </LinearLayout>
@@ -261,8 +314,8 @@
 
     <TextView
         android:id="@+id/tv1"
-        android:layout_width="159dp"
-        android:layout_height="33dp"
+        android:layout_width="237dp"
+        android:layout_height="45dp"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
         android:layout_marginTop="110dp"
